@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
-  "dependencies": {
-    "campsi": "git://github.com/campsi/campsi.git"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "campsi": "git://github.com/campsi/campsi.git",
     "eslint": "^3.19.0",
     "eslint-plugin-indexof": "^0.1.1"
   },
