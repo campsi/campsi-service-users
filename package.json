@@ -1,0 +1,25 @@
+{
+  "name": "campsi-service-users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "dependencies": {
+    "campsi": "git://github.com/campsi/campsi.git"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-indexof": "^0.1.1"
+  },
+  "scripts": {
+    "depcheck": "depcheck",
+    "lint": "./node_modules/eslint/bin/eslint.js --cache lib/**",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib/"
+  ]
+}
